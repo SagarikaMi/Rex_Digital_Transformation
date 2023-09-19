@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-19T09:14:11Z" name="Suite" finished-at="2023-09-19T09:14:20Z" duration-ms="9111">
+    <groups>
+    </groups>
+    <test started-at="2023-09-19T09:14:11Z" name="Test" finished-at="2023-09-19T09:14:20Z" duration-ms="9111">
+      <class name="Sanity_suite.LoginToApp">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Sanity_suite.LoginToApp@2ce6c6ec]" started-at="2023-09-19T09:14:11Z" name="setUp" finished-at="2023-09-19T09:14:11Z" duration-ms="256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Smoke Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="launchThebrowser()[pri:0, instance:Sanity_suite.LoginToApp@2ce6c6ec]" started-at="2023-09-19T09:14:11Z" name="launchThebrowser" finished-at="2023-09-19T09:14:11Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchThebrowser -->
+        <test-method is-config="true" signature="Login(org.testng.ITestResult)[pri:0, instance:Sanity_suite.LoginToApp@2ce6c6ec]" started-at="2023-09-19T09:14:11Z" name="Login" finished-at="2023-09-19T09:14:19Z" duration-ms="7791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signin_To_application status=SUCCESS method=LoginToApp.signin_To_application()[pri:1, instance:Sanity_suite.LoginToApp@2ce6c6ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="signin_To_application()[pri:1, instance:Sanity_suite.LoginToApp@2ce6c6ec]" started-at="2023-09-19T09:14:19Z" name="signin_To_application" finished-at="2023-09-19T09:14:20Z" duration-ms="1297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin_To_application -->
+        <test-method is-config="true" signature="closethebrowser()[pri:0, instance:Sanity_suite.LoginToApp@2ce6c6ec]" started-at="2023-09-19T09:14:20Z" name="closethebrowser" finished-at="2023-09-19T09:14:20Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closethebrowser -->
+        <test-method is-config="true" signature="close1()[pri:0, instance:Sanity_suite.LoginToApp@2ce6c6ec]" started-at="2023-09-19T09:14:20Z" name="close1" finished-at="2023-09-19T09:14:20Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Sanity_suite.LoginToApp@2ce6c6ec]" started-at="2023-09-19T09:14:20Z" name="tearDown" finished-at="2023-09-19T09:14:21Z" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Sanity_suite.LoginToApp -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
